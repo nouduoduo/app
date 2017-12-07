@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/**
+功能：美团样式设置
+ */
+body,html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font: 12px "微软雅黑";
+}
+/*导航样式*/
+li,span,p,a{
+    color: #a3a3a3;
+}
+header{
+    border-bottom: 1px solid #dddddd;
+    height: 45px;
+    line-height: 45px;
+    /*padding: 0 5%;*/
+}
+.listUl{
+    display: flex;
+    justify-content: space-between;
+}
+.listUl>li{
+    width: 25%;
+    text-align: center;
+}
+.list{
+    font-size: 16px;
+}
+/*二级导航*/
+.list .navigation{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    display: none;
+    text-align: left;
+}
+.list .navigation li{
+    border-bottom: 1px solid #eee;
+    padding-left: 5%;
+}
+.list-nav>a{
+    color: #000;
+}
+.list .listimg{
+    width: 18px;
+    position: relative;
+    top:4px;
+    height: 18px;
+}
+/*content*/
+.firstDiv{
+    padding: 5%;
+    position: relative;
+    border-bottom:1px solid #dddddd; ;
+}
+.firstDiv>div:first-child{
+    width: 30%;
+    height: 30%;
+    position: relative;
+}
+.firstDiv>div .brand{
+    position: absolute;
+    top:0;
+    left:0;
+    color: #fff;
+    background: #FFA726;
+    padding: 2px 3px;
+}
+.firstDiv>div>img{
+    width: 100%;
+    height: 100%;
+ }
+.box{
+   position: absolute;
+    width: 55%;
+    left: 35%;
+    top: 14px;
+}
+.title{
+    font-size: 18px;
+    color: #3e3e3e;
+}
+.title>span{
+    border:1px solid #3ADDCB;
+    font-size: 12px;
+    color: #3ADDCB;
+    padding: 2px;
+    font-weight: inherit;
+}
+.box .box-p{
+    position: relative;
+    padding: 2% 0;
+}
+.box .box-p>span:first-child{
+    color: orange;
+}
+.box .box-p .title-list{
+   position: absolute;
+   right: -10px;
+}
+.markdown{
+    margin-left: 33%;
+    margin-right: 0;
+}
+.markdown>p{
+    padding: 2%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.markdown .lower{
+    color: #fff;
+    padding: 1px 3px;
+    background: #FF615B;
+}
+.markdown .primacy{
+    color: #fff;
+    padding: 1px 3px;
+    background: #FFA726;
+}
+.markdown .primacy-1{
+    background: #6A5AB5;
+}
+.markdown .primacy-2{
+    background: #C182E4;
+}
+.list:hover .navigation{
+    display: block;
+}
+.list .navigation>li:hover a{
+    color: #FFA726;
+}
+
+
+
+
+
+
